@@ -1,0 +1,25 @@
+.
+├── Makefile             Makefile that makes all the executables out
+├── report.pdf           Report of this project
+├── typescript.md        Test guide
+├── include              Directory containing header files
+│   ├── tcp_buffer.h     Header file
+│   ├── tcp_utils.h      Header file
+│   └── thpool.h         Header file
+├── lib                  Directory containing library source files
+│   ├── tcp_buffer.c     Source code
+│   ├── tcp_utils.c      Source code
+│   └── thpool.c         Source code
+├── step1                Directory for step 1 files
+│   ├── BDC.c            Source code
+│   ├── BDC_random.c     Source code
+│   ├── BDS.c            Source code
+│   └── Makefile         Makefile for step 1
+├── step2                Directory for step 2 files
+│   ├── FC.c             Source code
+│   ├── FS.c             Source code
+│   └── Makefile         Makefile for step 2
+└── step3                Directory for step 3 files
+    ├── FC.c             Source code
+    ├── FS.c             Source code
+    └── Makefile         Makefile for step 3
